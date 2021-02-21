@@ -19,7 +19,7 @@ $libelle="creer";
 </head>
 <body>
 <form action="createUpdate.php" method="get">
-	<a href="index.php">Liste des Users</a>
+	<a href="index.php">Liste Users</a>
 	<input type="hidden" name="id" value="<?php echo $user['id']; ?>"/>
 	<input type="hidden" name="action" value="<?php echo $action; ?>"/>
 	<div>
